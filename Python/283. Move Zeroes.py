@@ -19,6 +19,9 @@ Constraints:
 
 Explanation: This problem requires understanding of two pointers
 Step1 : We need to assign two pointers i, j to 0 and then move the jth index if the value over it is 0 else we will swap the value at i and j and increament them
+
+Time Complexity : O(n), the list is being iterated at max n+n = 2n times
+Space Complexity : O(1), there is only use of constant space
 '''
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
