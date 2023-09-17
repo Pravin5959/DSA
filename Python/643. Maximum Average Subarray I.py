@@ -24,6 +24,12 @@ Step2 : To achieve that, we will use two pointers i, j where j will be moving at
         start of the window
 Step3 : As the window will move forward after a fix length, we will make sure to remove the value which window is no more part of, 
         and wil keep of checking the max value until the complete list is iterated
+
+Time complexity:
+O(n), as we are traversing the input list at max n+n = 2n times
+
+Space complexity:
+O(1), as we are using constant space
 '''
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
